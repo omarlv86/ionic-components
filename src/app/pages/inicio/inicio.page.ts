@@ -15,12 +15,12 @@ export class InicioPage implements OnInit {
 
   componentes:Componente[] = [
     {
-      icon:'american-footbal',
+      icon:'american-football-outline',
       name:'Action sheet',
       redirectTo:'/action-sheet'
     },
     {
-      icon:'logo-apple-appstore',
+      icon:'alert-circle-outline',
       name:'Alert',
       redirectTo:'/alert'
     }
