@@ -74,6 +74,71 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /* Angular */
+  --ion-color-angular: #ff0011;
+  --ion-color-angular-rgb: 255,0,17;
+  --ion-color-angular-contrast: #ffffff;
+  --ion-color-angular-contrast-rgb: 255,255,255;
+  --ion-color-angular-shade: #e0000f;
+  --ion-color-angular-tint: #ff1a29;
+
+  /* Vue */
+  --ion-color-vue: #1daf57;
+	--ion-color-vue-rgb: 29,175,87;
+	--ion-color-vue-contrast: #ffffff;
+	--ion-color-vue-contrast-rgb: 255,255,255;
+	--ion-color-vue-shade: #1a9a4d;
+	--ion-color-vue-tint: #34b768;
+
+  /* React */
+  --ion-color-react: #6ebfc9;
+	--ion-color-react-rgb: 110,191,201;
+	--ion-color-react-contrast: #000000;
+	--ion-color-react-contrast-rgb: 0,0,0;
+	--ion-color-react-shade: #61a8b1;
+	--ion-color-react-tint: #7dc5ce;
+
+  /* Ionic */
+  --ion-color-ionic: #000000;
+	--ion-color-ionic-rgb: 0,0,0;
+	--ion-color-ionic-contrast: #ffffff;
+	--ion-color-ionic-contrast-rgb: 255,255,255;
+	--ion-color-ionic-shade: #000000;
+	--ion-color-ionic-tint: #1a1a1a;
+
+  /* Laravel */
+  --ion-color-laravel: #e83211;
+	--ion-color-laravel-rgb: 232,50,17;
+	--ion-color-laravel-contrast: #ffffff;
+	--ion-color-laravel-contrast-rgb: 255,255,255;
+	--ion-color-laravel-shade: #cc2c0f;
+	--ion-color-laravel-tint: #ea4729; 
+
+  /* Javascript */
+  --ion-color-javascript: #ffc409;
+	--ion-color-javascript-rgb: 255,196,9;
+	--ion-color-javascript-contrast: #ffffff;
+	--ion-color-javascript-contrast-rgb: 0,0,0;
+	--ion-color-javascript-shade: #e0ac08;
+	--ion-color-javascript-tint: #ffca22;
+
+  /* HTML */
+  --ion-color-html: #ff4524;
+	--ion-color-html-rgb: 255,69,36;
+	--ion-color-html-contrast: #ffffff;
+	--ion-color-html-contrast-rgb: 255,255,255;
+	--ion-color-html-shade: #e03d20;
+	--ion-color-html-tint: #ff583a;
+
+  /* CSS */
+  --ion-color-css: #2450ff;
+	--ion-color-css-rgb: 36,80,255;
+	--ion-color-css-contrast: #ffffff;
+	--ion-color-css-contrast-rgb: 255,255,255;
+	--ion-color-css-shade: #2046e0;
+	--ion-color-css-tint: #3a62ff;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -233,4 +298,69 @@
 
     --ion-card-background: #1e1e1e;
   }
+}
+
+.ion-color-angular {
+  --ion-color-base: var(--ion-color-angular) !important;
+  --ion-color-base-rgb: var(--ion-color-angular-rgb) !important;
+  --ion-color-contrast: var(--ion-color-angular-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-angular-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-angular-shade) !important;
+  --ion-color-tint: var(--ion-color-angular-tint) !important;
+}
+.ion-color-vue {
+  --ion-color-base: var(--ion-color-vue) !important;
+  --ion-color-base-rgb: var(--ion-color-vue-rgb) !important;
+  --ion-color-contrast: var(--ion-color-vue-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-vue-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-vue-shade) !important;
+  --ion-color-tint: var(--ion-color-vue-tint) !important;
+}
+.ion-color-react {
+  --ion-color-base: var(--ion-color-react) !important;
+  --ion-color-base-rgb: var(--ion-color-react-rgb) !important;
+  --ion-color-contrast: var(--ion-color-react-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-react-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-react-shade) !important;
+  --ion-color-tint: var(--ion-color-react-tint) !important;
+}
+.ion-color-ionic {
+  --ion-color-base: var(--ion-color-ionic) !important;
+  --ion-color-base-rgb: var(--ion-color-ionic-rgb) !important;
+  --ion-color-contrast: var(--ion-color-ionic-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-ionic-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-ionic-shade) !important;
+  --ion-color-tint: var(--ion-color-ionic-tint) !important;
+}
+.ion-color-laravel {
+  --ion-color-base: var(--ion-color-laravel) !important;
+  --ion-color-base-rgb: var(--ion-color-laravel-rgb) !important;
+  --ion-color-contrast: var(--ion-color-laravel-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-laravel-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-laravel-shade) !important;
+  --ion-color-tint: var(--ion-color-laravel-tint) !important;
+}
+.ion-color-javascript {
+  --ion-color-base: var(--ion-color-javascript) !important;
+  --ion-color-base-rgb: var(--ion-color-javascript-rgb) !important;
+  --ion-color-contrast: var(--ion-color-javascript-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-javascript-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-javascript-shade) !important;
+  --ion-color-tint: var(--ion-color-javascript-tint) !important;
+}
+.ion-color-html {
+  --ion-color-base: var(--ion-color-html) !important;
+  --ion-color-base-rgb: var(--ion-color-html-rgb) !important;
+  --ion-color-contrast: var(--ion-color-html-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-html-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-html-shade) !important;
+  --ion-color-tint: var(--ion-color-html-tint) !important;
+}
+.ion-color-css{
+  --ion-color-base: var(--ion-color-css) !important;
+  --ion-color-base-rgb: var(--ion-color-css-rgb) !important;
+  --ion-color-contrast: var(--ion-color-css-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-css-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-css-shade) !important;
+  --ion-color-tint: var(--ion-color-css-tint) !important;
 }
