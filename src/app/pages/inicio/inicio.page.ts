@@ -64,6 +64,11 @@ export class InicioPage implements OnInit {
       name:'Infinite',
       redirectTo:'/infinite'
     },
+    {
+      icon:'hammer-outline',
+      name:'Input',
+      redirectTo:'/input'
+    },
 
   ];
 
